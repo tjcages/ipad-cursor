@@ -2,6 +2,8 @@ import * as RadixDialog from '@radix-ui/react-dialog'
 import * as React from 'react'
 import commandScore from 'command-score'
 
+import Cursor from './cursor'
+
 type Children = { children?: React.ReactNode }
 type DivProps = React.HTMLAttributes<HTMLDivElement>
 
@@ -834,6 +836,7 @@ const pkg = Object.assign(Command, {
 
 export { useCmdk as useCommandState }
 export { pkg as Command }
+export { Cursor }
 
 export { Command as CommandRoot }
 export { List as CommandList }

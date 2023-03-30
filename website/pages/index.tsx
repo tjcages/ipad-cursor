@@ -17,6 +17,8 @@ import {
 } from 'components'
 import packageJSON from '../../cmdk/package.json'
 
+import { Cursor } from 'cmdk'
+
 type TTheme = {
   theme: Themes
   setTheme: Function
@@ -77,6 +79,7 @@ export default function Index() {
         <Codeblock />
       </div>
       <Footer />
+      <Cursor />
     </main>
   )
 }
